@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    //For Text Boxes
     @IBOutlet weak var row1Col1: UILabel!
     @IBOutlet weak var row1Col2: UILabel!
     @IBOutlet weak var row1Col3: UILabel!
@@ -38,7 +40,83 @@ class ViewController: UIViewController {
     @IBOutlet weak var row5Col3: UILabel!
     @IBOutlet weak var row5Col4: UILabel!
     @IBOutlet weak var row5Col5: UILabel!
-
+    
+    
+    //for Keybord
+    
+    
+    @IBAction func letterQ(_ sender: Any) {
+    }
+    @IBAction func letterW(_ sender: Any) {
+    }
+    @IBAction func letterE(_ sender: Any) {
+    }
+    @IBAction func letterR(_ sender: Any) {
+    }
+    @IBAction func letterT(_ sender: Any) {
+    }
+    @IBAction func letterY(_ sender: Any) {
+    }
+    @IBAction func letterU(_ sender: Any) {
+    }
+    @IBAction func letterI(_ sender: Any) {
+    }
+    @IBAction func letterO(_ sender: Any) {
+    }
+    @IBAction func letterP(_ sender: Any) {
+    }
+    @IBAction func letterA(_ sender: Any) {
+    }
+    @IBAction func letterS(_ sender: Any) {
+    }
+    @IBAction func letterD(_ sender: Any) {
+    }
+    @IBAction func letterF(_ sender: Any) {
+        
+    }
+    @IBAction func letterG(_ sender: Any) {
+        
+    }
+    @IBAction func letterH(_ sender: Any) {
+        
+    }
+    @IBAction func letterJ(_ sender: Any) {
+        
+    }
+    @IBAction func letterK(_ sender: Any) {
+        
+    }
+    @IBAction func letterL(_ sender: Any) {
+        
+    }
+    @IBAction func letterZ(_ sender: Any) {
+        
+    }
+    @IBAction func letterX(_ sender: Any) {
+    
+    }
+    @IBAction func letterC(_ sender: Any) {
+    }
+    @IBAction func letterV(_ sender: Any) {
+    }
+    @IBAction func letterB(_ sender: Any) {
+    }
+    @IBAction func letterN(_ sender: Any) {
+    }
+    @IBAction func letterM(_ sender: Any) {
+    }
+    
+    
+    
+    //backspace Button
+    @IBAction func backspaceButton(_ sender: Any) {
+    }
+    
+    
+    //Submit button
+    @IBAction func submitWordButton(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
