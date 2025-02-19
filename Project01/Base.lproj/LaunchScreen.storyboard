@@ -17,10 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenAsset" translatesAutoresizingMaskIntoConstraints="NO" id="Dzb-Uc-hKc">
-                                <rect key="frame" x="109.99999999999999" y="270" width="170.66666666666663" height="171"/>
+                                <rect key="frame" x="111.33333333333331" y="340.66666666666669" width="170.66666666666669" height="170.66666666666669"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WORD GAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2t-nm-bYB">
-                                <rect key="frame" x="142" y="468" width="107" height="21"/>
+                                <rect key="frame" x="143" y="532" width="107" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="11U-cJ-OUu"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -29,12 +32,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="i2t-nm-bYB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ran-qp-4e6"/>
-                            <constraint firstItem="Dzb-Uc-hKc" firstAttribute="centerX" secondItem="i2t-nm-bYB" secondAttribute="centerX" id="WyN-fQ-5S1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="i2t-nm-bYB" secondAttribute="bottom" constant="329" id="XT6-0V-UIY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="i2t-nm-bYB" secondAttribute="trailing" id="ZQt-8r-Vtc"/>
-                            <constraint firstItem="Dzb-Uc-hKc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="sPt-wI-mYg"/>
-                            <constraint firstItem="i2t-nm-bYB" firstAttribute="top" secondItem="Dzb-Uc-hKc" secondAttribute="bottom" constant="27" id="yRL-QH-m9W"/>
+                            <constraint firstItem="Dzb-Uc-hKc" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="AAL-FI-nV0"/>
+                            <constraint firstItem="Dzb-Uc-hKc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bzc-bx-Fzl"/>
+                            <constraint firstItem="i2t-nm-bYB" firstAttribute="centerX" secondItem="Dzb-Uc-hKc" secondAttribute="centerX" id="SLx-Bh-0oa"/>
+                            <constraint firstItem="i2t-nm-bYB" firstAttribute="top" secondItem="Dzb-Uc-hKc" secondAttribute="bottom" constant="20.670000000000002" id="jH3-Ox-5cu"/>
                         </constraints>
                     </view>
                 </viewController>
